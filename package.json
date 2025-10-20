@@ -1,5 +1,5 @@
 {
-  "name": "@alingse/sentry-api-mcp",
+  "name": "sentry-api-mcp",
   "version": "1.0.0",
   "description": "An MCP server for the Sentry API.",
   "main": "dist/index.js",

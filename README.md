@@ -29,7 +29,7 @@ First things first, you'll need your Sentry credentials. You can set them up in 
     "sentry-api-mcp": {
       "command": "npx",
       "args": [
-        "@alingse/sentry-api-mcp"
+        "sentry-api-mcp"
       ],
       "env": {
         "SENTRY_HOST": "https://your-sentry-host.com",
@@ -43,11 +43,11 @@ First things first, you'll need your Sentry credentials. You can set them up in 
 #### Add via CLI 💻
 
 ```bash
-claude mcp add --transport stdio sentry-api-mcp npx @alingse/sentry-api-mcp
+claude mcp add --transport stdio sentry-api-mcp npx sentry-api-mcp
 ```
 
 ```bash
-claude mcp add --transport stdio sentry-api-mcp npx @alingse/sentry-api-mcp -- --host "https://your-sentry-host.com" --access-token "your-sentry-token"
+claude mcp add --transport stdio sentry-api-mcp npx sentry-api-mcp -- --host "https://your-sentry-host.com" --access-token "your-sentry-token"
 ```
 
 ---
